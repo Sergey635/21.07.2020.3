@@ -22,8 +22,8 @@ public class Main {
 
         for (int i = 0; i <wordsArrey.length ; i++) {
 
-                //всі слова, довжина яких >=3
-            if ( (wordsArrey[i].length()>=3)  && (wordsArrey[i].charAt(0)=='a') ) {
+            // всі слова, довжина яких >= 3   і   всі слова,які починаються на "b" або  всі слова,які починаються на "a"
+            if ( (wordsArrey[i].length() >= 3) && ((wordsArrey[i].charAt(0)=='b') || (wordsArrey[i].charAt(0)=='a') )) {           // "||" означає "або"
                                                 //перша буква ( charAt(0) ) слова "а"
                                                 // символ charAt береться у одинокі скобки ('')
 
